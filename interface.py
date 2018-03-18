@@ -20,7 +20,7 @@ class Interface:
         self.run = False
       else:
         for link in self.scrapping(word):
-          print(link.decompose())
+          print(link)
 
 app = Interface()
 app.start()
